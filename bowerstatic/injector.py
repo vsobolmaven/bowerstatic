@@ -1,3 +1,4 @@
+from __future__ import absolute_import
 import webob
 
 CONTENT_TYPES = set(['text/html', 'application/xhtml+xml'])

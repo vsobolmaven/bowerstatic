@@ -18,6 +18,7 @@ The script accepts buildout command-line options, so you can
 use the -c option to specify an alternate configuration file.
 """
 
+from __future__ import absolute_import
 import os
 import shutil
 import sys
@@ -73,7 +74,7 @@ except ImportError:
     try:
         from urllib.request import urlopen
     except ImportError:
-        from urllib2 import urlopen
+        from six.moves.urllib.request import urlopen
 
     # XXX use a more permanent ez_setup.py URL when available.
     exec(urlopen('https://bitbucket.org/pypa/setuptools/raw/0.7.2/ez_setup.py'

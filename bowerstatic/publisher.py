@@ -1,3 +1,4 @@
+from __future__ import absolute_import
 import webob
 from webob.static import FileApp
 import time

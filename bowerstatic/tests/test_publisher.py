@@ -1,3 +1,4 @@
+from __future__ import absolute_import
 import bowerstatic
 from webtest import TestApp as Client
 import os

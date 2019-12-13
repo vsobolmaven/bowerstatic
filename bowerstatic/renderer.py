@@ -1,3 +1,4 @@
+from __future__ import absolute_import
 import os
 from .error import Error
 from .compat import string_types

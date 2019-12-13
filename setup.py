@@ -1,3 +1,4 @@
+from __future__ import absolute_import
 import io
 from setuptools import setup, find_packages
 
@@ -20,6 +21,11 @@ setup(
     long_description=long_description,
     author="Martijn Faassen",
     author_email="faassen@startifact.com",
+    classifiers=[
+        "Programming Language :: Python",
+        'Programming Language :: Python :: 3',
+        'Programming Language :: Python :: 3.8',
+    ],
     license="BSD",
     url='http://bowerstatic.readthedocs.org',
     keywords='wsgi bower',
